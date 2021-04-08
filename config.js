@@ -1,2 +1,0 @@
-MONGODB_ADMIN="mongodb+srv://admin:q1qap044T50wH7IS@cluster0.7fvlb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-MONGODB_USER="mongodb+srv://user:9XlZTchHzz9GGfPI@cluster0.7fvlb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
