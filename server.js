@@ -18,6 +18,7 @@ app.get('/users',async(req,res) => {
     }catch(error){
         return res.status(400).send(error)
     }
+    //consol
 });
 
 app.post('/users', async(req,res) => {
