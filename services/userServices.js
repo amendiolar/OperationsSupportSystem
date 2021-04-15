@@ -40,12 +40,12 @@ module.exports={
     },
     updateUserById:(email,data)=>{
         return new Promise ((resolve, reject)=>{
-            getCollection('users').updateOne({email:email.email}, data, function(err,result){
+            getCollection('users').updateOne({email:email.email}, {$set:data} , function(err,result){
                 //console.log(email)
                 //console.log(result)
                 if(err) reject(err);
-                const [obj] = result.ops
-                resolve(obj)
+                //const [obj] = result.ops
+                resolve(result)
             })
         })
     },
